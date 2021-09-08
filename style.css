@@ -1,35 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
+body{
+  overflow-x:hidden ;
+  font-family: 'Lato', sans-serif;
+  color: #a27c0b;
 
-
-
-
-/*============= COURSE SECTION =============*/
-
-.narrow {
-  width: 75%;
-  margin: 1.5rem auto;
-  padding-top: 2rem;
 }
-.narrow h1 {
-    font-size: 2.4rem;
-  }
-.btn-secondary {
-  border-width: medium;
-  border-radius: 0;
-  padding: .6rem 1.2rem;
-  font-size: 1.2rem;
+
+/*------Navigation-----*/
+
+.navbar{
   text-transform: uppercase;
-  margin: 1rem;
-  border-color: #1EBBA3;
-  background-color: #1EBBA3;
-  color: white;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background: rgba(0, 0, 0, 0.6) !important;
 }
-.btn-secondary:hover,
-.btn-secondary:focus {
-  border-color: #189582;
-  background-color: #189582;
-  color: white;
+.navbar-brand img{
+  height: 2.5rem ;
 }
+
 
 
 /*============ BOOTSTRAP BREAK POINTS:
