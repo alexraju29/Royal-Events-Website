@@ -3,7 +3,7 @@
 body{
   overflow-x:hidden ;
   font-family: 'Lato', sans-serif;
-  color: #a27c0b;
+  color: #505962;
 
 }
 
@@ -19,6 +19,63 @@ body{
 .navbar-brand img{
   height: 2.5rem ;
 }
+.navbar-nav li{
+  padding-right: .7rem;
+}
+.navbar-dar .navbar-nav .nav-link {
+  color: #fff;
+  padding-top: .8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #a27c0b;
+}
+
+
+/*-------Landing Page-------*/
+
+.home-inner{
+  background-image: url(img/Banner.png);
+}
+.caption{
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 45%;
+  z-index: 1;
+  color: white;
+  text-transform: uppercase;
+}.caption h1{
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black ;
+  padding-bottom: 1rem;
+}
+.caption h3{
+  font-size:  2rem;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 1.6rem;
+}
+.btn-lg{
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.3rem;
+  font-size: 1.1rem;
+}
+
+
+/*---------About Section----------*/
+
+
+
+
+
+
+
+
+
+
 
 
 
