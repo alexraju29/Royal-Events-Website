@@ -12,12 +12,12 @@ body{
 .navbar{
   text-transform: uppercase;
   font-weight: 700;
-  font-size: .9rem;
+  font-size: .6rem;
   letter-spacing: .1rem;
   background: rgba(0, 0, 0, 0.6) !important;
 }
 .navbar-brand img{
-  height: 2.5rem ;
+  height: 2rem ;
 }
 .navbar-nav li{
   padding-right: .7rem;
@@ -46,27 +46,41 @@ body{
   color: white;
   text-transform: uppercase;
 }.caption h1{
-  font-size: 3.8rem;
+  font-size: 2rem;
   font-weight: 700;
-  letter-spacing: .3rem;
+  letter-spacing: .2rem;
   text-shadow: .1rem .1rem .8rem black ;
-  padding-bottom: 1rem;
+  padding-bottom: .5rem;
 }
 .caption h3{
-  font-size:  2rem;
+  font-size:  1rem;
   text-shadow: .1rem .1rem .5rem black;
-  padding-bottom: 1.6rem;
+  padding-bottom: 1.3rem;
 }
 .btn-lg{
   border-width: medium;
   border-radius: 0;
-  padding: .6rem 1.3rem;
-  font-size: 1.1rem;
+  padding: .4rem .8rem;
+  font-size: 1rem;
 }
 
 
 /*---------About Section----------*/
 
+.about{
+  padding: 2rem;
+}
+.about-button{
+  padding: 1rem;
+}
+.about-section{
+  padding-top: 1rem;
+}
+.about-image{
+  border-radius: 0.2rem;
+  height: 20rem;
+  box-shadow: .1rem .1rem .5rem black ;
+}
 
 
 
